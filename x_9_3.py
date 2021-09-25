@@ -4,9 +4,10 @@
 
 import csv
 
-path = '99-entry/9/files/momotaro.csv'
+file = open('./files/momotaro.csv')
 
-with open(path) as f:
-    reader = csv.DictReader(f)
-    for row in reader:
-        print(row)
+reader = csv.DictReader(file)
+for row in reader:
+    print(row)
+
+file.close()

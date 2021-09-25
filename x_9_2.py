@@ -4,8 +4,9 @@
 
 import csv
 
-path = '99-entry/9/files/chatbot.csv'
+file = open('./files/chatbot.csv', mode='a')
 
-with open(path, mode='a') as f:
-    writer = csv.writer(f)
-    writer.writerow(['日本の首都は', '東京です'])
+writer = csv.writer(file)
+writer.writerow(['日本の首都', '東京'])
+
+file.close()
