@@ -8,27 +8,27 @@ z = 200
 d = 150
 
 
-def func_1():
+def func_a():
     x = 10
     return x
 
 
-def func_2(y):
+def func_b(y):
     return y
 
 
-def func_3():
+def func_c():
     return z
 
 
-def func_4():
+def func_d():
     d = 1000
 
 
-a = func_1()
-b = func_2(70)
-c = func_3()
-func_4()
+a = func_a()
+b = func_b(70)
+c = func_c()
+func_d()
 
 # print(a)
 # print(b)

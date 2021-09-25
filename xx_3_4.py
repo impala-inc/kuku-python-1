@@ -1,6 +1,6 @@
 # xx_3_4
 #
-# 「xx_3_2」の「damaged()」をクラスのメソッド（関数）に追加してください。
+# 「damaged()」を「hello()」のようなクラスのインスタンスメソッド（関数）に修正してください。
 
 class Character:
     def __init__(self, name, hit_points, attack):
@@ -8,7 +8,7 @@ class Character:
         self.hit_points = hit_points
         self.attack = attack
 
-    def greeting(self):
+    def hello(self):
         print('初めまして私の名前は' + self.name + 'です')
 
 

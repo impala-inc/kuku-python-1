@@ -4,4 +4,4 @@
 
 import csv
 
-path = '99-entry/9/files/prefecture.csv'
+path = './files/prefecture.csv'
