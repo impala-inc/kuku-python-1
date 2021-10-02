@@ -3,3 +3,8 @@
 # 「while文」を使ってメンバーを１行づつ表示するコードを追加してください
 
 members = ['桃太郎', 'いぬ', 'さる', 'きじ']
+number = 0
+
+while number < len(members):
+    print(members[number])
+    number += 1

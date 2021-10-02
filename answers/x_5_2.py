@@ -6,3 +6,13 @@
 members = ['桃太郎', 'いぬ', 'さる', 'きじ']
 
 print(members)
+
+members += ['牛糞']
+
+print(members)
+
+# または
+
+# members.append('牛糞')
+
+# print(members)
