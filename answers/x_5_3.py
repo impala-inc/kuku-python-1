@@ -5,3 +5,7 @@
 members = ['桃太郎', 'いぬ', 'さる', 'きじ']
 
 print(members)
+
+members[2] = 'はち'
+
+print(members)

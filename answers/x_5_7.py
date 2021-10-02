@@ -7,3 +7,5 @@ for member in momotaro:
     print(member)
 
 sarukani = ['かに', 'くり', 'うす', 'はち', '牛糞']
+for member in sarukani:
+    print(member)

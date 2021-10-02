@@ -7,3 +7,5 @@ members = ['桃太郎', 'いぬ', 'さる', 'きじ', 'かに', 'くり', 'う�
 print(members)
 
 print(members[2])
+
+print(members[6])

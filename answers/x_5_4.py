@@ -5,3 +5,5 @@
 members = ['桃太郎', 'いぬ', 'さる', 'きじ', 'かに', 'くり', 'うす', 'はち', '牛糞']
 
 print(members)
+
+print(len(members))

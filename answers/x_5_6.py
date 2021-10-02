@@ -6,4 +6,10 @@ members = ['桃太郎', 'いぬ', 'さる', 'きじ']
 
 text = '鬼退治のメンバーは'
 
+number = 0
+
+while number < len(members):
+    text += members[number]
+    number += 1
+
 print(text)

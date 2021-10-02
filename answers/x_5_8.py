@@ -7,4 +7,7 @@ nums = [211, 12, 52, 577, 90, 124]
 
 total = 0
 
+for num in nums:
+    total += num
+
 print(total)
