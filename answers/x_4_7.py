@@ -9,7 +9,18 @@
 
 number = 0
 text = 'ももたろう'
+text2 = ''
 
 while number < 5:
-    print(text[number])
+    text2 += text[number]
+    print(text2)
     number += 1
+
+# または
+
+# number = 0
+# text = 'ももたろう'
+
+# while number <= 5:
+#     print(text[0:number])
+#     number += 1

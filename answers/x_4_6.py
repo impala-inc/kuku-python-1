@@ -6,3 +6,7 @@
 text = input('何か文章を入力してください:')
 
 number = 0
+
+while number < len(text):
+    print(text[number])
+    number += 1

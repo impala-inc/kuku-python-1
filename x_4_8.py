@@ -5,7 +5,7 @@
 # 「3」でも「5」でも割り切れる場合は「FizzBuzz」
 # それ以外はそのまま数字を表示するようにコードを修正してください
 
-number = input('数字を入力してください:')
+number = 1
 
 print('Fizz')
 print('Buzz')

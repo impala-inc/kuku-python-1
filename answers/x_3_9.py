@@ -13,3 +13,17 @@ elif age >= 20 and osake == 'はい':
     print('ビールをどうぞ')
 else:
     print('烏龍茶をどうぞ')
+
+# もしくは
+
+# age = int(input('年齢を入力してください:'))
+# if age <= 12:
+#     print('オレンジジュースをどうぞ')
+#     exit()
+
+# osake = input('お酒は好きですか？(はい/いいえ):')
+
+# if age >= 20 and osake == 'はい':
+#     print('ビールをどうぞ')
+# else:
+#     print('烏龍茶をどうぞ')

@@ -4,8 +4,8 @@
 
 text = input('何か文章を入力してください:')
 
-number = 0
+number = len(text) - 1
 
-while number < 5:
+while number >= 0:
     print(text[number])
-    number += 1
+    number -= 1
