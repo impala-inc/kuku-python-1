@@ -1,20 +1,8 @@
 # x_6_6
 #
-# 「members」が最後にどんな値となるかを予想してください
+# 「nums」のそれぞれの数字を２倍にしたリスト「nums_x_2」を作成してください
 
-members = ['桃太郎', 'いぬ', 'さる', 'きじ']
+nums = [2, 5, 7, 1, 3, 8, 1, 8, 2, 3]
+nums_x_2 = []
 
-members.append('うす')
-print(members)
-
-members.remove('さる')
-print(members)
-
-members.insert(0, 'うらしまたろう')
-print(members)
-
-members.insert(1, 'きんたろう')
-members.remove('きじ')
-members.append('かに')
-
-# print(members)
+print(nums_x_2)

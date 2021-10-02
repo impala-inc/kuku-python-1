@@ -1,12 +1,20 @@
 # x_6_5
 #
-# 「while文」を使って以下のように表示してください
-#
-# 鬼鬼鬼鬼鬼
-# 鬼鬼鬼鬼鬼
-# 鬼鬼桃鬼鬼
-# 鬼鬼鬼鬼鬼
-# 鬼鬼鬼鬼鬼
+# 「members」が最後にどんな値となるかを予想してください
 
-momotaro = '桃'
-oni = '鬼'
+members = ['桃太郎', 'いぬ', 'さる', 'きじ']
+
+members.append('うす')
+print(members)
+
+members.remove('さる')
+print(members)
+
+members.insert(0, 'うらしまたろう')
+print(members)
+
+members.insert(1, 'きんたろう')
+members.remove('きじ')
+members.append('かに')
+
+# print(members)

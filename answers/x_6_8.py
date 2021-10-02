@@ -2,4 +2,12 @@
 #
 # for文またはwhile文を使って次のリストの中から最も大きな数字を選んで表示してください
 
-nums = [70, 29, 23, 12, 77, 55, 29, 62]
+nums = [15, 29, 23, 12, 77, 55, 29, 62]
+
+max_num = nums[0]
+
+for num in nums:
+    if max_num < num:
+        max_num = num
+
+print(max_num)
