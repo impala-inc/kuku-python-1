@@ -1,6 +1,22 @@
 # x_6_7
 #
-# 「nums」のそれぞれの数字を２倍にしたリストを作成してください
+# 「while文」を使って以下のように表示してください
+#
+# 鬼鬼鬼鬼鬼
+# 鬼鬼鬼鬼鬼
+# 鬼鬼桃鬼鬼
+# 鬼鬼鬼鬼鬼
+# 鬼鬼鬼鬼鬼
 
-nums = [2, 5, 7, 1, 3, 8, 1, 8, 2, 3]
-nums_x_2 = []
+gyou = 0
+while gyou < 5:
+    retu = 0
+    text = ''
+    while retu < 5:
+        if gyou == 2 and retu == 2:
+            text += '桃'
+        else:
+            text += '鬼'
+        retu += 1
+    print(text)
+    gyou += 1
