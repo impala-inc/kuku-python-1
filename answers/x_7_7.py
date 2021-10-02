@@ -11,3 +11,8 @@ chatbot = {
 }
 
 conversation = input('何か話しかけてください:')
+
+if conversation in chatbot:
+    print(chatbot[conversation])
+else:
+    print('わかりません')

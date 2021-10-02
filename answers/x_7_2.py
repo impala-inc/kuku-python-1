@@ -10,3 +10,7 @@ momotaro = {
     '守備力': 200,
 }
 print(momotaro)
+
+momotaro['守備力'] = 230
+
+print(momotaro)

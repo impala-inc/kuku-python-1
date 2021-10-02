@@ -28,3 +28,7 @@ members = [
         '守備力': 220,
     }
 ]
+
+for member in members:
+    print(member['名前'] + 'はヒットポイント:' + str(member['ヒットポイント']) +
+          ',攻撃力:' + str(member['攻撃力']) + ',守備力:' + str(member['守備力']))

@@ -5,3 +5,11 @@
 kibidango = ['桃太郎', 'いぬ', 'さる', '桃太郎', 'きじ', '桃太郎',
              'いぬ', '桃太郎', 'きじ', 'さる', 'いぬ', 'さる', '桃太郎']
 counts = {}
+
+for member in kibidango:
+    if member in counts:
+        counts[member] += 1
+    else:
+        counts[member] = 0
+
+print(counts)

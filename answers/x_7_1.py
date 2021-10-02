@@ -9,3 +9,5 @@ momotaro = {
     '守備力': 200,
 }
 print(momotaro['攻撃力'])
+
+print(momotaro['守備力'])
