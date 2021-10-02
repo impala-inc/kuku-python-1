@@ -2,6 +2,6 @@
 #
 #
 
-import k2_2
+import modules.plus
 
-k2_2.loop()
+print(modules.plus.plus(3, 3))
