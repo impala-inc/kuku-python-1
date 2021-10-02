@@ -6,7 +6,10 @@
 number = 1
 
 while True:
-    print(number)
+    if number % 2 == 0:
+        print(str(number) + 'は偶数です')
+    else:
+        print(str(number) + 'は奇数です')
 
     number += 1
 

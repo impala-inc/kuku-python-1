@@ -5,7 +5,7 @@
 number = 1
 
 while True:
-    print(number)
+    print(str(number) + '回目')
 
     number += 1
 
