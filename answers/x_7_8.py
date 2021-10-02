@@ -10,4 +10,12 @@ chatbot = {
     '何か歌って': 'もーもたろさんももたろさん',
 }
 
-conversation = input('何か話しかけてください:')
+while True:
+    conversation = input('何か話しかけてください:')
+    if conversation == 'やめる':
+        break
+
+    if conversation in chatbot:
+        print(chatbot[conversation])
+    else:
+        print('わかりません')

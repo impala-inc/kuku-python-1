@@ -11,7 +11,9 @@ momotaro = {
 print(momotaro)
 
 print('青鬼の攻撃。桃太郎は150のダメージを受けた')
+momotaro['ヒットポイント'] -= 150
 
 print('赤鬼の攻撃。桃太郎は230のダメージを受けた')
+momotaro['ヒットポイント'] -= 230
 
 print(momotaro)
