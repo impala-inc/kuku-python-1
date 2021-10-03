@@ -1,13 +1,15 @@
 # x_8_6
 #
-# 「birthday」に自分の誕生日を入力して誕生日が何曜日だったかを表示するようにコードを修正してください
+# 日付を入力してもらい「2021-04-19は火曜日です」のように表示するようにコードを修正してください
 
 import datetime
 
-birthday = '2021-12-29'
-date = datetime.datetime.strptime(birthday, '%Y-%m-%d')
+day = input('日付を入力してください(例2021-12-29):')
+
+date = datetime.datetime.strptime(day, '%Y-%m-%d')
 
 print(date)
-print(date.weekday())
 
-input('誕生日を入力してください(例2021-12-29):')
+wday = ['月', '火', '水', '木', '金', '土', '日']
+
+print(day + 'は' + wday[date.weekday()] + '曜日です')

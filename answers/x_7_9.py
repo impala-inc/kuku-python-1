@@ -1,6 +1,6 @@
 # x_7_9
 #
-# 「7-7」のコードに質問と回答を登録できるようににコードを追加してください
+# 「7-7」のコードに入力から質問と回答を繰り返し登録できるようににコードを追加してください
 
 chatbot = {
     'おはよう': 'おはようございます',
@@ -10,7 +10,13 @@ chatbot = {
     '何か歌って': 'もーもたろさんももたろさん',
 }
 
-question = input('質問を登録してください:')
-answer = input('質問の回答を登録してください:')
+while True:
+    question = input('質問を登録してください:')
+    if question == 'やめる':
+        break
+
+    answer = input('質問の回答を登録してください:')
+
+    chatbot[question] = answer
 
 print(chatbot)

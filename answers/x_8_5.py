@@ -8,3 +8,7 @@ start = datetime.datetime.now()
 print('スタート:' + str(start))
 
 input('止める(リターンキーを押してください):')
+
+end = datetime.datetime.now()
+
+print(end - start)
