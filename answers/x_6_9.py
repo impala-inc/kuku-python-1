@@ -8,13 +8,15 @@ nums = [70, 29, 23, 12, 77, 55, 29, 62]
 
 while True:
     i = 0
-    converted = False
+    changed = False
+
     while i < len(nums) - 1:
         if nums[i] > nums[i + 1]:
             nums[i], nums[i + 1] = nums[i + 1], nums[i]
-            converted = True
+            changed = True
         i += 1
-    if not converted:
+
+    if not changed:
         break
 
 print(nums)

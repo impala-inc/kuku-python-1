@@ -4,5 +4,5 @@
 
 import random
 
-num = random.randint(0, 2)
+num = random.randint(1, 6)
 print(num)

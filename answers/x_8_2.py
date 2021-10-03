@@ -5,4 +5,6 @@
 import random
 
 num = random.randint(0, 2)
-print(num)
+
+hands = ['グー', 'チョキ', 'パー']
+print(hands[num])
