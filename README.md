@@ -16,7 +16,7 @@ https://colab.research.google.com
 
 Windows の場合: https://www.python.jp/install/windows/index.html
 
-Mac の場合: https://www.python.jp/install/windows/index.html
+Mac の場合: https://www.python.jp/install/macos/index.html
 
 #### Visual Studio Code
 
