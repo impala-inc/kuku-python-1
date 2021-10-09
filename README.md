@@ -15,13 +15,14 @@ https://colab.research.google.com
 #### Python
 
 Windows の場合: https://www.python.jp/install/windows/index.html
+
 Mac の場合: https://www.python.jp/install/windows/index.html
 
 #### Visual Studio Code
 
 https://azure.microsoft.com/ja-jp/products/visual-studio-code/
 
-便利な拡張機能
+##### 便利な拡張機能
 
 - Japanese Language Pack for Visual Studio Code
 - Python
