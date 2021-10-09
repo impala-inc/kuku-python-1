@@ -10,7 +10,6 @@ momotaro = {
     'ヒットポイント': 1800,
     '攻撃力': 230,
     '守備力': 200,
-    '命中率': 80,
 }
 
 aka_oni = {
@@ -18,10 +17,12 @@ aka_oni = {
     'ヒットポイント': 2500,
     '攻撃力': 250,
     '守備力': 250,
-    '命中率': 50,
 }
 
-momotaro_attack = (momotaro['攻撃力'] - (aka_oni['守備力'] / 2)) * \
-    (random.randint(momotaro['命中率'], 100) / 100)
-aka_oni_attack = (aka_oni['攻撃力'] - (momotaro['守備力'] / 2)) * \
-    (random.randint(aka_oni['命中率'], 100) / 100)
+momotaro_attack = ((momotaro['攻撃力'] / 2) - (aka_oni['守備力'] / 4)) * \
+    (random.randint(7, 9) / 8)
+print(aka_oni['名前'] + 'は' + str(momotaro_attack) + 'のダメージを受けた')
+
+aka_oni_attack = ((aka_oni['攻撃力'] / 2) - (momotaro['守備力'] / 4)) * \
+    (random.randint(7, 9) / 8)
+print(momotaro['名前'] + 'は' + str(aka_oni_attack) + 'のダメージを受けた')

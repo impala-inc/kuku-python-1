@@ -2,13 +2,14 @@
 #
 # 「7-7」のコードに入力から質問と回答を繰り返し登録できるようににコードを追加してください
 
-chatbot = {
-    'おはよう': 'おはようございます',
-    'おやすみ': 'おやすみなさい',
-    '今日は何日ですか': '2021年11月14日です',
-    '今日の天気は': '雨です',
-    '何か歌って': 'もーもたろさんももたろさん',
-}
+chatbot = [
+    {'question': 'おはよう', 'answer': 'おはようございます'},
+    {'question': 'おやすみ', 'answer': 'おやすみなさい'},
+    {'question': '今日は何日ですか', 'answer': '2021年11月14日です'},
+    {'question': '今日の天気は', 'answer': '雨です'},
+    {'question': '何か歌って', 'answer': 'もーもたろさんももたろさん'},
+    {'question': 'ジャンケン', 'answer': 'グー'},
+]
 
 while True:
     question = input('質問を登録してください:')
@@ -17,6 +18,6 @@ while True:
 
     answer = input('質問の回答を登録してください:')
 
-    chatbot[question] = answer
+    chatbot.append({question: answer})
 
 print(chatbot)

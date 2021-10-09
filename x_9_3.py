@@ -1,13 +1,13 @@
 # x_9_3
 #
-# 「momotaro.csv」を読み込んで「7-5」のmembersリストを作成してください
+# 「7-9」で入力した質問と回答を「chatbot.csv」に保存するように修正してください
 
 import csv
 
-file = open('./files/momotaro.csv')
+file = open('./files/chatbot.csv', mode='a')
 
-reader = csv.DictReader(file)
-for row in reader:
-    print(row)
+labels = ['question', 'answer']
+writer = csv.DictWriter(file, fieldnames=labels)
+writer.writerow({'question': '山口県の県庁所在地', 'answer': '山口市'})
 
 file.close()

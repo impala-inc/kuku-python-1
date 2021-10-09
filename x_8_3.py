@@ -1,11 +1,8 @@
 # x_8_3
 #
-# 「cards」を「while文」と「random」を使ってランダムに並び替えてください
+# ランダムで「グー、チョキ、パー」を表示するように修正してください
 
-cards = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K']
+import random
 
-print(cards)
-
-cards[2], cards[11] = cards[11], cards[2]
-
-print(cards)
+tenki = random.choice(['雨', '晴れ', '曇り', '雪'])
+print(tenki)

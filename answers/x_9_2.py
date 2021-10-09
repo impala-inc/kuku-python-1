@@ -1,12 +1,18 @@
 # x_9_2
 #
-# 「7-9」で入力した質問と回答を「chatbot.csv」に保存するように修正してください
+# 「7-7」の辞書を「chatbot.csv」から読み込むように修正してください
 
 import csv
 
-file = open('./files/chatbot.csv', mode='a')
+file = open('./files/chatbot.csv')
 
-writer = csv.writer(file)
-writer.writerow(['日本の首都', '東京'])
+chatbot = csv.DictReader(file)
+
+conversation = input('何か話しかけてください:')
+
+for q_and_a in chatbot:
+    if q_and_a['question'] == conversation:
+        print(q_and_a['answer'])
+        break
 
 file.close()

@@ -2,20 +2,27 @@
 #
 # 「7-7」のコードを「やめる」と入力するまで何度でも繰り返し質問できるようにコードを追加してください
 
-chatbot = {
-    'おはよう': 'おはようございます',
-    'おやすみ': 'おやすみなさい',
-    '今日は何日ですか': '2021年11月14日です',
-    '今日の天気は': '雨です',
-    '何か歌って': 'もーもたろさんももたろさん',
-}
+chatbot = [
+    {'question': 'おはよう', 'answer': 'おはようございます'},
+    {'question': 'おやすみ', 'answer': 'おやすみなさい'},
+    {'question': '今日は何日ですか', 'answer': '2021年11月14日です'},
+    {'question': '今日の天気は', 'answer': '雨です'},
+    {'question': '何か歌って', 'answer': 'もーもたろさんももたろさん'},
+    {'question': 'ジャンケン', 'answer': 'グー'},
+]
 
 while True:
     conversation = input('何か話しかけてください:')
     if conversation == 'やめる':
         break
 
-    if conversation in chatbot:
-        print(chatbot[conversation])
-    else:
+    answered = False
+
+    for q_and_a in chatbot:
+        if q_and_a['question'] == conversation:
+            print(q_and_a['answer'])
+            answered = True
+            break
+
+    if not answered:
         print('わかりません')

@@ -1,13 +1,20 @@
 # x_8_9
 #
-# 「birthday」に自分の誕生日を入力して誕生日が何曜日だったかを表示するようにコードを修正してください
+# 「cards」を「while文」と「random」を使ってランダムに並び替えてください
 
-import datetime
+import random
 
-birthday = '2021-12-29'
-date = datetime.datetime.strptime(birthday, '%Y-%m-%d')
+cards = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K']
 
-print(date)
-print(date.weekday())
+print(cards)
 
-input('誕生日を入力してください(例2021-12-29):')
+count = 0
+while count < 20:
+    f = random.randint(0, 12)
+    t = random.randint(0, 12)
+
+    if f != t:
+        cards[f], cards[t] = cards[t], cards[f]
+        count += 1
+
+    print(cards)
