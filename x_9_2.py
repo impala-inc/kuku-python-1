@@ -1,12 +1,13 @@
 # x_9_2
 #
-# 「7-9」で入力した質問と回答を「chatbot.csv」に保存するように修正してください
+# 「7-7」の辞書を「chatbot.csv」から読み込むように修正してください
 
-import csv
+chatbot = {
+    'おはよう': 'おはようございます',
+    'おやすみ': 'おやすみなさい',
+    '今日は何日ですか': '2021年11月14日です',
+    '今日の天気は': '雨です',
+    '何か歌って': 'もーもたろさんももたろさん',
+}
 
-file = open('./files/chatbot.csv', mode='a')
-
-writer = csv.writer(file)
-writer.writerow(['日本の首都', '東京'])
-
-file.close()
+conversation = input('何か話しかけてください:')
