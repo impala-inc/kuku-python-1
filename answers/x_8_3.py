@@ -1,20 +1,8 @@
 # x_8_3
 #
-# 「cards」を「while文」と「random」を使ってランダムに並び替えてください
+# ランダムで「グー、チョキ、パー」を表示するように修正してください
 
 import random
 
-cards = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K']
-
-print(cards)
-
-count = 0
-while count < 20:
-    f = random.randint(0, 12)
-    t = random.randint(0, 12)
-
-    if f != t:
-        cards[f], cards[t] = cards[t], cards[f]
-        count += 1
-
-    print(cards)
+tenki = random.choice(['グー', 'チョキ', 'パー'])
+print(tenki)
