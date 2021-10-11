@@ -11,5 +11,5 @@ print('好きな食べ物は' + favorite + 'です')
 your_name = '山田'
 your_favorite = 'カツ丼'
 
-print('私の名前は' + name + 'です')
-print('好きな食べ物は' + favorite + 'です')
+print('私の名前は' + your_name + 'です')
+print('好きな食べ物は' + your_favorite + 'です')

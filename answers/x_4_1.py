@@ -1,13 +1,13 @@
 # x_4_1
 #
-# 「１回目」「2回目」「3回目」、、、と表示するように修正してください
+# 実行結果が「10, 9, 8,,,,,,, 1, 0」と表示されるように修正してください
 
-number = 1
+number = 10
 
 while True:
-    print(str(number) + '回目')
+    print(number)
 
-    number += 1
+    number -= 1
 
-    if number > 10:
+    if number < 0:
         break

@@ -1,26 +1,21 @@
 # x_4_7
 #
-# 「も」
-# 「もも」
-# 「ももた」
-# 「ももたろ」
-# 「ももたろう」
-# と表示するように修正してください
+# 「4-3」のカウントダウンを1秒ずつ同じ行に表示するように修正してください
 
-number = 0
-text = 'ももたろう'
-text2 = ''
+import time
 
-while number < 5:
-    text2 += text[number]
-    print(text2)
-    number += 1
+print('今からカウントダウンを始めます')
+time.sleep(2)
 
-# または
+number = 10
+while True:
+    if number < 10:
+        print('\r0' + str(number), end='')
+    else:
+        print('\r' + str(number), end='')
 
-# number = 0
-# text = 'ももたろう'
+    number -= 1
+    time.sleep(1)
 
-# while number <= 5:
-#     print(text[0:number])
-#     number += 1
+    if number < 0:
+        break

@@ -7,7 +7,7 @@ b = 1.0 + 4     # => 1.4
 c = 3 / 3       # => 1.0
 d = 10e3        # => 10000.0
 
-print(a)
-print(b)
-print(c)
-print(d)
+# print(a)
+# print(b)
+# print(c)
+# print(d)
