@@ -11,12 +11,12 @@ while number <= 10:
 
 # x_4_1
 
-number = 1
+number = 10
 
-while number <= 10:
-    print(str(number) + '回目')
+while number >= 0:
+    print(number)
 
-    number += 1
+    number -= 1
 
 # x_4_2
 
@@ -29,12 +29,3 @@ while number <= 10:
         print(str(number) + 'は奇数です')
 
     number += 1
-
-# x_4_3
-
-number = 10
-
-while number >= 0:
-    print(number)
-
-    number -= 1

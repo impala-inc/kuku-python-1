@@ -4,7 +4,7 @@
 
 import csv
 
-file = open('./files/chatbot.csv', mode='a')
+file = open('./files/chatbot.csv', mode='a', encoding="utf-8")
 
 labels = ['question', 'answer']
 writer = csv.DictWriter(file, fieldnames=labels)

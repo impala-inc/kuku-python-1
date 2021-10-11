@@ -17,7 +17,7 @@ conversation = input('何か話しかけてください:')
 if conversation == '都道府県番号を教えて':
     prefecture = input('何県の都道府県番号ですか？:')
 
-    file = open('./files/prefecture.csv')
+    file = open('./files/prefecture.csv', encoding="utf-8")
 
     reader = csv.DictReader(file)
     for row in reader:

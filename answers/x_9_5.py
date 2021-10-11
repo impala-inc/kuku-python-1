@@ -4,7 +4,7 @@
 
 import csv
 
-file = open('./files/momotaro.csv', mode='r+')
+file = open('./files/momotaro.csv', mode='r+', encoding="utf-8")
 labels = ['名前', '攻撃力', '守備力', 'ヒットポイント']
 
 members = csv.DictReader(file)

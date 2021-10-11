@@ -4,7 +4,7 @@
 
 import csv
 
-file = open('./files/momotaro.csv', mode='r+')
+file = open('./files/momotaro.csv', mode='r+', encoding="utf-8")
 
 members = csv.DictReader(file)
 for member in members:

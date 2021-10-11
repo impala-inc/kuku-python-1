@@ -42,3 +42,20 @@ https://azure.microsoft.com/ja-jp/products/visual-studio-code/
 - 何が起きているのかを推測する
 - 課題に従ってコードを追加や修正する
 - さらに自分なりにアレンジしてみる
+
+## ModuleNotFoundError と表示された場合
+
+```
+ModuleNotFoundError: No module named 'requests'
+```
+
+などのように表示された場合、必要なパッケージがインストールされていません。
+以下を参考に `pip` でインストールしましょう
+
+### Windows の場合
+
+https://www.python.jp/install/windows/pip.html
+
+### Mac の場合
+
+https://www.python.jp/install/macos/pip.html
