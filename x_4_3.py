@@ -1,13 +1,11 @@
 # x_4_3
 #
-# 実行結果が「10, 9, 8,,,,,,, 1, 0」と表示されるように修正してください
+# 「4-1」のカウントダウンを1秒ずつ実行するように修正してください
 
-number = 1
+import time
 
-while True:
-    print(number)
+print('今からカウントダウンを始めます')
+time.sleep(2)
 
-    number += 1
-
-    if number > 10:
-        break
+number = 10
+print(number)
