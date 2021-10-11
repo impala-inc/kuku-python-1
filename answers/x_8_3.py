@@ -4,5 +4,8 @@
 
 import random
 
-tenki = random.choice(['グー', 'チョキ', 'パー'])
+tenki = random.choice(['雨', '晴れ', '曇り', '雪'])
 print(tenki)
+
+hand = random.choice(['グー', 'チョキ', 'パー'])
+print(hand)

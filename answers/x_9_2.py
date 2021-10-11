@@ -4,7 +4,7 @@
 
 import csv
 
-file = open('./files/chatbot.csv')
+file = open('./files/chatbot.csv', encoding="utf-8")
 
 chatbot = csv.DictReader(file)
 

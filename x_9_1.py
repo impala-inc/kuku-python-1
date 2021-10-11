@@ -4,7 +4,7 @@
 
 import csv
 
-file = open('./files/prefecture.csv')
+file = open('./files/prefecture.csv', encoding="utf-8")
 
 reader = csv.DictReader(file)
 for row in reader:

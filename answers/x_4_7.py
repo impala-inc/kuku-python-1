@@ -19,3 +19,5 @@ while True:
 
     if number < 0:
         break
+
+# ほかにも様々な「0埋め」の方法があります

@@ -8,4 +8,4 @@ apple = 100
 banana_count = input('バナナを何房買いましたか？:')
 apple_count = input('リンゴを何個買いましたか？:')
 
-print('掛け算した結果は' + '円です')
+print('合計は' + '円です')
