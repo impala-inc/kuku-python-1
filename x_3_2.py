@@ -1,17 +1,18 @@
 # x_3_2
 #
 # 正しいか正しくないかを表すデータの型を「真偽値(boolean)」と呼びます
+# 正しい場合の値は「True」、正しくない場合の値は「False」になります
 # 「a」「b」「c」「d」がそれぞれどんな値となるかを予想してください
 
-print(100 > 90 and 85 < 90)
-print(100 < 90 and 85 < 90)
-print(100 >= 90 or 85 < 90)
-print(100 == 90 or 85 < 90)
+print(True and True)
+print(False and True)
+print(True or True)
+print(False or True)
 
-a = 100 < 70 or 70 > 65
-b = 60 >= 60 and (60 > 100 or 97 < 100)
-c = 60 < 30 or not 40 < 60
-d = 75 != 89 and not (100 < 50)
+a = True and True and True and False
+b = True and (False or True)
+c = not True
+d = True and not False
 
 # print(a)
 # print(b)

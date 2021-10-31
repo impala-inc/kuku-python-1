@@ -3,15 +3,15 @@
 # 正しいか正しくないかを表すデータの型を「真偽値(boolean)」と呼びます
 # 「a」「b」「c」「d」がそれぞれどんな値となるかを予想してください
 
-print(100 > 90 and 85 < 90)
-print(100 < 90 and 85 < 90)
-print(100 >= 90 or 85 < 90)
-print(100 == 90 or 85 < 90)
+print(True and True)
+print(False and True)
+print(True or True)
+print(False or True)
 
-a = 100 < 70 or 70 > 65                  # => True
-b = 60 >= 60 and (60 > 100 or 97 < 100)  # => True
-c = 60 < 30 or not 40 < 60               # => False
-d = 75 != 89 and not (100 < 50)          # => True(「not」は右の判定の否定)
+a = True and True and True and False  # => False(一つでもFalseがあるとFalse)
+b = True and (False or True)          # => True
+c = not True                          # => False(「not」は右の判定の否定)
+d = True and not False                # => True(「not」は右の判定の否定)
 
 # print(a)
 # print(b)
