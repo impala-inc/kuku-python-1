@@ -10,6 +10,6 @@ for member in kibidango:
     if member in counts:
         counts[member] += 1
     else:
-        counts[member] = 0
+        counts[member] = 1  # 最初にメンバーが食べた時(1個食べたので)
 
 print(counts)
