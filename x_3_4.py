@@ -1,7 +1,8 @@
 # x_3_4
 #
-# 「a」「b」「c」「d」がそれぞれどんな値となるかを予想してください
+# ヒントを参考に「a」「b」「c」「d」がそれぞれどんな値となるかを予想してください
 
+# ヒント
 print(int(True))
 print(int(False))
 print(type(True))
