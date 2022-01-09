@@ -1,9 +1,9 @@
 # x_2_4
 #
-# countから１つずつ数字を引いて10から5までの数字を表示してください
+# numberから１つずつ数字を引いて10から5までの数字を表示してください
 
-count = 10
-print(count)
+number = 10
+print(number)
 
-count -= 1
-print(count)
+number -= 1
+print(number)
