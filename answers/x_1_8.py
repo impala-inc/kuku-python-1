@@ -1,10 +1,10 @@
 # x_1_8
 #
-# 「menu」の最後の文字を表示するコードを追加してください
+# 「food」の最後の1文字を表示するコードを追加してください
 
-menu = 'ビーフストロガノフ'
+food = 'ビーフストロガノフ'
 
-print(menu[0])
-print(menu[3])
+print(food[0])
+print(food[3])
 
-print(menu[8])
+print(food[8])

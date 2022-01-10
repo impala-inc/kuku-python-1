@@ -1,15 +1,15 @@
 # x_1_6
 #
-# 「members」に「いぬ」と「さる」と「きじ」を順番に追加して表示してください
+# 「onitaiji_members」に「いぬ」と「さる」と「きじ」を順番に追加して表示してください
 
-members = '桃太郎'
-print(members)
+onitaiji_members = '桃太郎'
+print(onitaiji_members)
 
-members += 'いぬ'
-print(members)
+onitaiji_members += 'いぬ'
+print(onitaiji_members)
 
-members += 'さる'
-print(members)
+onitaiji_members += 'さる'
+print(onitaiji_members)
 
-members += 'きじ'
-print(members)
+onitaiji_members += 'きじ'
+print(onitaiji_members)

@@ -12,14 +12,14 @@ chatbot = [
 ]
 
 while True:
-    conversation = input('何か話しかけてください:')
-    if conversation == 'やめる':
+    message = input('何か話しかけてください:')
+    if message == 'やめる':
         break
 
     answered = False
 
     for q_and_a in chatbot:
-        if q_and_a['question'] == conversation:
+        if q_and_a['question'] == message:
             print(q_and_a['answer'])
             answered = True
             break

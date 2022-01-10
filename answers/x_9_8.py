@@ -14,13 +14,13 @@ chatbot = [
     {'question': 'ジャンケン', 'answer': 'グー'},
 ]
 
-conversation = input('何か話しかけてください:')
+message = input('何か話しかけてください:')
 
-if conversation == '今何時':
+if message == '今何時':
     now = datetime.datetime.now()
     print(str(now.hour) + '時' + str(now.minute) + '分です')
 else:
     for q_and_a in chatbot:
-        if q_and_a['question'] == conversation:
+        if q_and_a['question'] == message:
             print(q_and_a['answer'])
             break
