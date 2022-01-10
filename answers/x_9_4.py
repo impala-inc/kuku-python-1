@@ -11,12 +11,12 @@ chatbot = [
     {'question': 'ジャンケン', 'answer': 'グー'},
 ]
 
-conversation = input('何か話しかけてください:')
+message = input('何か話しかけてください:')
 
 is_answerd = False
 
 for q_and_a in chatbot:
-    if q_and_a['question'] == conversation:
+    if q_and_a['question'] == message:
         print(q_and_a['answer'])
         is_answerd = True
         break

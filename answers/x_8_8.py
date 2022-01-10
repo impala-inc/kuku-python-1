@@ -5,8 +5,9 @@
 # 「都道府県番号」を入力してもらい「都道府県番号◯◯の明日の天気はxxです」と表示できるように修正してください。
 
 import requests
+import pprint
 
-pref_code = input('都道府県番号を入力してください')
+pref_code = input('都道府県番号を入力してください(01~47):')
 
 url = "https://www.jma.go.jp/bosai/forecast/data/forecast/" + pref_code + "0000.json"
 

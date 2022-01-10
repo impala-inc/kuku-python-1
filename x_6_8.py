@@ -4,6 +4,6 @@
 
 numbers = [15, 29, 23, 12, 77, 55, 29, 62]
 
-max_number = numbers[0]
+max_number = numbers[0]  # 暫定チャンピオン
 
 print(max_number)

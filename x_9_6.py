@@ -14,4 +14,4 @@ chatbot = [
     {'question': 'ジャンケン', 'answer': 'グー'},
 ]
 
-conversation = input('何か話しかけてください:')
+message = input('何か話しかけてください:')

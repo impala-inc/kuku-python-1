@@ -8,10 +8,10 @@ file = open('./files/chatbot.csv', encoding="utf-8")
 
 chatbot = csv.DictReader(file)
 
-conversation = input('何か話しかけてください:')
+message = input('何か話しかけてください:')
 
 for q_and_a in chatbot:
-    if q_and_a['question'] == conversation:
+    if q_and_a['question'] == message:
         print(q_and_a['answer'])
         break
 

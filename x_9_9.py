@@ -12,7 +12,7 @@ chatbot = {
     '何か歌って': 'もーもたろさんももたろさん',
 }
 
-conversation = input('何か話しかけてください:')
+message = input('何か話しかけてください:')
 
-if conversation == '都道府県番号を教えて':
+if message == '都道府県番号を教えて':
     prefecture = input('何県の都道府県番号ですか？:')

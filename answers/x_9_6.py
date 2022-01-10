@@ -16,12 +16,12 @@ chatbot = [
     {'question': 'ジャンケン', 'answer': 'グー'},
 ]
 
-conversation = input('何か話しかけてください:')
+message = input('何か話しかけてください:')
 
 answers = []
 
 for q_and_a in chatbot:
-    if q_and_a['question'] == conversation:
+    if q_and_a['question'] == message:
         answers.append(q_and_a['answer'])
 
 print(random.choice(answers))
