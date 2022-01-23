@@ -16,13 +16,13 @@ while True:
     if message == 'やめる':
         break
 
-    answered = False
+    is_answered = False
 
     for q_and_a in chatbot:
         if q_and_a['question'] == message:
             print(q_and_a['answer'])
-            answered = True
+            is_answered = True
             break
 
-    if not answered:
+    if not is_answered:
         print('わかりません')
