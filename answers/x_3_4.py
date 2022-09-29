@@ -1,19 +1,17 @@
 # x_3_4
 #
-# ヒントを参考に「a」「b」「c」「d」がそれぞれどんな値となるかを予想してください
+# ヒントを参考にq_1 ~ q_4がそれぞれどんな値となるかを予想してください
 
 # ヒント
-print(int(True))
-print(int(False))
-print(type(True))
-print(type(False))
 
-a = bool(1)      # => True
-b = bool(0)      # => False
-c = bool('abc')  # => True
-d = bool('')     # => False(空文字「''」はFalseと判定される)
+hint_1 = type(True).__name__
+hint_2 = type(False).__name__
+hint_3 = int(True)
+hint_4 = int(False)
 
-# print(a)
-# print(b)
-# print(c)
-# print(d)
+# ここから問題
+
+q_1 = bool(1)      # => True
+q_2 = bool(0)      # => False
+q_3 = bool('abc')  # => True
+q_4 = bool('')     # => False(空文字「''」はFalseと判定される)
