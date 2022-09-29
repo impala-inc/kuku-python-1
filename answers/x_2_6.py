@@ -1,18 +1,16 @@
 # x_2_6
 #
-# ヒントを参考に「a」「b」「c」「d」がそれぞれどんな値となるかを予想してください
+# ヒントを参考にq_1 ~ q_4がそれぞれどんな値となるかを予想してください
 
 # ヒント
-print(type('桃太郎'))
-print(type(10))
-print(type(12.3))
 
-a = type('777')       # => str
-b = type(10 + 3.5)    # => float
-c = type(14 / 7)      # => float
-d = type(10_000_000)  # => int
+hint_1 = type('桃太郎')  # => str(文字列)
+hint_2 = type(10)       # => int(整数)
+hint_3 = type(12.3)     # => float(浮動小数点数)
 
-# print(a)
-# print(b)
-# print(c)
-# print(d)
+# ここから問題（strやintなどで答えてください）
+
+q_1 = type('777')       # => str
+q_2 = type(10 + 3.5)    # => float
+q_3 = type(14 / 7)      # => float
+q_4 = type(10_000_000)  # => int
