@@ -6,9 +6,9 @@
 # ヒント
 
 hint_1 = True and True
-hint_1 = False and True
-hint_1 = True or True
-hint_1 = False or True
+hint_2 = False and True
+hint_3 = True or True
+hint_4 = False or True
 
 # ここから問題
 
