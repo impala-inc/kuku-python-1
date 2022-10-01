@@ -8,7 +8,7 @@ def qa(question, value):
             return
         else:
             i += 1
-    print('正解は' + str(value) + 'でした。')
+    print('正解は「' + str(value) + '」でした。')
     print('')
 
 
