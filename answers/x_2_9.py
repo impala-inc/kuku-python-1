@@ -12,3 +12,4 @@ apple_count = input('リンゴを何個買いましたか？:')
 total = banana_price * int(banana_count) + apple_price * int(apple_count)
 
 print('合計は' + str(total) + '円です')
+print(f'合計は{total}円です')
