@@ -4,7 +4,7 @@
 # 最後の1文字を表示するコードに修正してください
 
 
-food = 'ペペロンチーノ'
+food = input('好きな食べ物を入力して下さい：')
 text_count = len(food)
 
 print(text_count)
