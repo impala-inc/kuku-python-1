@@ -5,10 +5,8 @@
 
 import csv
 
-file = open('./files/prefecture.csv', encoding="utf-8")
+with open('./files/prefecture.csv', encoding="utf-8") as file:
+    reader = csv.DictReader(file)
+    for row in reader:
+        print(row)
 
-reader = csv.DictReader(file)
-for row in reader:
-    print(row)
-
-file.close()
