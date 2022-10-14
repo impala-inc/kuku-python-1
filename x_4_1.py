@@ -4,10 +4,8 @@
 
 number = 1
 
-while True:
+while number <= 10:
     print(number)
 
     number += 1
 
-    if number > 10:
-        break
