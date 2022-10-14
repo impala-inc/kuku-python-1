@@ -1,13 +1,17 @@
 # x_4_4
-#
-# 「4-1」「4-2」を「break」を使わないように書き直してください
+
+#while True:とすると、無限ループになります。このまま実行してみてください
+#Ctr + C　で止められます
+# 「4-1」「4-2」を「if」と「break」を使って書き直してください
 
 number = 1
 
-while number <= 10:
+
+while True:
     print(number)
 
     number += 1
+
 
 # x_4_1
 
