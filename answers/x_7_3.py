@@ -1,6 +1,7 @@
 # x_7_3
 #
-# 「status」の各値について「名前は桃太郎」などのように表示してください（値が存在しない場合は無視する）
+# # 繰り返し構文を用いて、「status」の全ての値について「名前は桃太郎」などのように表示してください。
+# プログラムを参考にして、値が存在しない場合は無視するような処理にしてください。
 
 momotaro = {
     '名前': '桃太郎',
@@ -16,4 +17,4 @@ status = ['名前', 'ヒットポイント', '血液型', '攻撃力', '星座',
 
 for stats in status:
     if stats in momotaro:
-        print(st + 'は' + str(momotaro[stats]))
+        print(stats + 'は' + str(momotaro[stats]))
