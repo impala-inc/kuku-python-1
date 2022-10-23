@@ -5,7 +5,7 @@
 # 「4-1」「4-2」を「if」と「break」を使って書き直してください
 
 
-number = 1
+number = 1  # 初期値
 
 while True:
     print(number)
