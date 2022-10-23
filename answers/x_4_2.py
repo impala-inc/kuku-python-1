@@ -12,4 +12,3 @@ while number <= 10:
         print(str(number) + 'は奇数です')
 
     number += 1
-
