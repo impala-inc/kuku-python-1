@@ -1,16 +1,28 @@
 # x_2_5
 #
-# ヒントを参考にq_1 ~ q_4がそれぞれどんな値となるかを予想してください
+# count_downから「-=」を使って
+# 「10」
+# 「9」
+# 「8」
+# 「7」
+# 「6」
+# 「5」
+# と表示してください
 
-# ヒント
+count_down = 10
+print(count_down)
 
-hint_1 = 1_1_1_1
-hint_2 = 1.0 + 2.0
-hint_3 = 5.0e3
+count_down -= 1
+print(count_down)
 
-# ここから問題
+count_down -= 1
+print(count_down)
 
-q_1 = 10_000 + 4  # => 10004 「_」は桁をわかりやすくするために使用
-q_2 = 4 + 1.0     # => 5.0 整数と小数点を持つ数字を計算すると少数点を持つ数に変換される
-q_3 = 3 / 3       # => 1.0 整数を整数で割ると小数点を持つ数に変換される
-q_4 = 5.0e-3      # => 0.005 指数表記
+count_down -= 1
+print(count_down)
+
+count_down -= 1
+print(count_down)
+
+count_down -= 1
+print(count_down)
