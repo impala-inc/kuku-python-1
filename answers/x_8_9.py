@@ -14,7 +14,7 @@ while count < 20:
     t = random.randint(0, 12)
 
     if f != t:
-        cards[f], cards[t] = cards[t], cards[f]
+        cards[f], cards[t] = cards[t], cards[f]  # cards[f]とcards[t]の要素を交換
         count += 1
 
     print(cards)
