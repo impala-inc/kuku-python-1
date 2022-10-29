@@ -1,15 +1,15 @@
 # x_1_6
 #
-# 「onitaiji_members」に「いぬ」と「さる」と「きじ」を順番に追加して表示してください
+# ヒントを参考にq_1 ~ q_4がそれぞれどんな値となるかを予想してください
+# ヒント
 
-onitaiji_members = '桃太郎'
-print(onitaiji_members)
+hint_1 = len('ももたろう')
+hint_2 = len('いぬ')
+hint_3 = len('あかおに')
 
-onitaiji_members += 'いぬ'
-print(onitaiji_members)
+# ここから問題
 
-onitaiji_members += 'さる'
-print(onitaiji_members)
-
-onitaiji_members += 'きじ'
-print(onitaiji_members)
+q_1 = len('オムライス')        # => 5
+q_2 = len('カレー')           # => 3
+q_3 = len('ペペロンチーノ')     # => 7
+q_4 = len('ビーフストロガノフ')  # => 9

@@ -5,6 +5,4 @@
 food = input('好きな食べ物を入力して下さい：')
 text_count = len(food)
 
-print(text_count)
-
 print(food[text_count - 1])
