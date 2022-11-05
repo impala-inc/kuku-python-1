@@ -16,4 +16,4 @@ status = ['名前', 'ヒットポイント', '血液型', '攻撃力', '星座',
 
 for stats in status:
     if stats in momotaro:
-        print(st + 'は' + str(momotaro[stats]))
+        print(stats + 'は' + str(momotaro[stats]))
