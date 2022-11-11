@@ -8,11 +8,8 @@ print('今からカウントダウンを始めます')
 time.sleep(2)
 
 number = 10
-while True:
+while number >= 0:
     print(number)
 
     number -= 1
     time.sleep(1)
-
-    if number < 0:
-        break
