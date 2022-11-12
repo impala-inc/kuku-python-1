@@ -2,7 +2,7 @@
 #
 # ヒントを参考にq_1 ~ q_2がそれぞれどんな値となるかを予想してください
 
-from module.qa import qa, ex
+from module import qa
 
 momotaro = {
     '名前': '桃太郎',
@@ -25,8 +25,6 @@ hint_2 = momotaro['身長']
 q_1 = momotaro['守備力']
 q_2 = momotaro['好きな食べ物']
 
+
 # ここはとりあえず無視
-for i in range(2):
-    ex(f'hint_{i + 1}', locals()[f'hint_{i + 1}'])
-for i in range(2):
-    qa(f'q_{i + 1}', locals()[f'q_{i + 1}'])
+qa.execute(locals(), 2, 2)
