@@ -2,7 +2,7 @@
 #
 # ヒントを参考にq_1 ~ q_4がそれぞれどんな値となるかを予想してください
 
-from module.qa import qa, ex
+from module import qa
 
 # ヒント
 
@@ -20,9 +20,6 @@ q_2 = 7 % 5
 q_3 = 13 // 4
 q_4 = 13 % 4
 
-# ここはとりあえず無視
 
-for i in range(6):
-    ex(f'hint_{i + 1}', locals()[f'hint_{i + 1}'])
-for i in range(4):
-    qa(f'q_{i + 1}', locals()[f'q_{i + 1}'])
+# ここはとりあえず無視
+qa.execute(locals(), 6, 4)

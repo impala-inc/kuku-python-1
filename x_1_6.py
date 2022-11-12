@@ -1,7 +1,7 @@
 # x_1_6
 #
 # ヒントを参考にq_1 ~ q_4がそれぞれどんな値となるかを予想してください
-from module.qa import qa, ex
+from module import qa
 
 # ヒント
 
@@ -18,8 +18,4 @@ q_4 = len('ビーフストロガノフ')
 
 
 # ここはとりあえず無視
-
-for i in range(3):
-    ex(f'hint_{i + 1}', locals()[f'hint_{i + 1}'])
-for i in range(4):
-    qa(f'q_{i + 1}', locals()[f'q_{i + 1}'])
+qa.execute(locals(), 3, 4)
