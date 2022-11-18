@@ -7,6 +7,8 @@ numbers = [211, 12, 52, 577, 90, 124]
 
 total = 0
 
+# ここで「for文」を使ってリスト内の数字を足していってください
+
 for number in numbers:
     total += number
 
