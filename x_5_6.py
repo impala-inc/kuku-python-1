@@ -6,4 +6,6 @@ members = ['桃太郎', 'いぬ', 'さる', 'きじ']
 
 text = '鬼退治のメンバーは'
 
+# ここで「while文」を使ってtextにmembersの人たちを追加していってください
+
 print(text)
