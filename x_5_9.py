@@ -12,4 +12,3 @@ for member in members:
 
     print(member + 'さんは桃太郎チームです')
     print(member + 'さんは猿蟹合戦チームです')
-    
