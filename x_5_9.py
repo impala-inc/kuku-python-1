@@ -9,6 +9,5 @@ onitaiji_team = ['桃太郎', 'いぬ', 'さる', 'きじ']
 sarukani_team = ['かに', 'くり', 'うす', 'はち', '牛糞']
 
 for member in members:
-
     print(member + 'さんは桃太郎チームです')
     print(member + 'さんは猿蟹合戦チームです')
