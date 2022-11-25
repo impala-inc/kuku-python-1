@@ -4,7 +4,7 @@
 # 正しい場合の値は「True」、正しくない場合の値は「False」になります
 # ヒントを参考にq_1 ~ q_4がそれぞれどんな値となるかを予想してください
 
-from module.qa import qa, ex
+from module import qa
 
 # ヒント
 
@@ -20,8 +20,6 @@ q_2 = True and (False or True)
 q_3 = not True
 q_4 = True and not False
 
+
 # ここはとりあえず無視
-for i in range(4):
-    ex(f'hint_{i + 1}', locals()[f'hint_{i + 1}'])
-for i in range(4):
-    qa(f'q_{i + 1}', locals()[f'q_{i + 1}'])
+qa.execute(locals(), 4, 4)

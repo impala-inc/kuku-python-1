@@ -2,7 +2,7 @@
 #
 # 「your_name」と「your_food」にあなたの名字と好きな食べ物を入れて表示できるようにコードを追加してください
 
-my_name = '田中'
+my_name = '山本'
 my_food = 'オムライス'
 
 print('私の名前は' + my_name + 'です')

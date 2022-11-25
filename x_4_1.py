@@ -2,12 +2,9 @@
 #
 # 実行結果が「10, 9, 8,,,,,,, 1, 0」と表示されるように修正してください
 
-number = 1
+number = 1  # 初期値
 
-while True:
+while number <= 10:
     print(number)
 
     number += 1
-
-    if number > 10:
-        break

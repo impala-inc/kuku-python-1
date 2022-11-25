@@ -7,6 +7,8 @@ members = ['桃太郎', 'いぬ', 'さる', 'きじ']
 
 print(members)
 
+# ここでmembersの中の「さる」の要素を指定して「はち」を入れる
+
 members[2] = 'はち'
 
 print(members)
