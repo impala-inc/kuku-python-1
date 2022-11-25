@@ -8,4 +8,4 @@ day = '2021-12-29'
 
 date = datetime.datetime.strptime(day, '%Y-%m-%d')
 
-print(date.month)
+print(type(date))

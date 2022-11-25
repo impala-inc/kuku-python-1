@@ -14,4 +14,4 @@ url = "https://www.jma.go.jp/bosai/forecast/data/forecast/350000.json"
 response = requests.get(url)
 tenki = response.json()
 
-pprint(tenki)
+pprint.pprint(tenki)
