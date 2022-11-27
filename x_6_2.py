@@ -9,3 +9,6 @@ addresses = [
     ['さる', '708-0000', '岡山県', '津山市'],
     ['きじ', '706-0000', '岡山県', '玉野市'],
 ]
+
+for address in addresses:
+    print(address)

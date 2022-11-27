@@ -13,3 +13,7 @@ addresses = [
 for address in addresses:
     print('〒' + address[1] + ' ' + address[2] +
           address[3] + ' ' + address[0] + '様')
+
+# フォーマット文「f」を使うと、変数を埋め込むことが出来ます
+for address in addresses:
+    print(f'〒{address[1]} {address[2]}{address[3]} {address[0]}様')
