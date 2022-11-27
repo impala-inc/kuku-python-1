@@ -5,6 +5,10 @@
 numbers = [2, 5, 7, 1, 3, 8, 1, 8, 2, 3]
 numbers_x_2 = []
 
+print(numbers_x_2)
+
+# ここで「for文」を使ってリストに追加する
+
 for number in numbers:
     numbers_x_2.append(number * 2)
 
