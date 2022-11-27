@@ -12,4 +12,3 @@ addresses = [
 
 for address in addresses:
     print(address)
-    
