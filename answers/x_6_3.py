@@ -7,7 +7,6 @@ teams = [
     ['桃太郎', 'いぬ', 'さる', 'きじ'],
     ['かに', 'くり', 'うす', 'はち', '牛糞']
 ]
-print(teams)
 
 for team in teams:
     for member in team:
