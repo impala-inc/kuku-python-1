@@ -1,8 +1,12 @@
-def execute(vars, hint, question):
-    for i in range(hint):
-        ex(f'hint_{i + 1}', vars[f'hint_{i + 1}'])
-    for i in range(question):
-        qa(f'q_{i + 1}', vars[f'q_{i + 1}'])
+def execute(vars):
+    keys = sorted(list(vars.keys()))
+
+    for key in keys:
+        if key.startswith('hint_'):
+            ex(key, vars[key])
+    for key in keys:
+        if key.startswith('q_'):
+            qa(key, vars[key])
 
 
 def qa(question, value):

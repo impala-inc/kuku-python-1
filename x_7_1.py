@@ -27,4 +27,4 @@ q_2 = momotaro['好きな食べ物']
 
 
 # ここはとりあえず無視
-qa.execute(locals(), 2, 2)
+qa.execute(locals())

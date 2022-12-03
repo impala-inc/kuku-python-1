@@ -18,4 +18,4 @@ q_4 = type(10_000_000)
 
 
 # ここはとりあえず無視
-qa.execute(locals(), 3, 4)
+qa.execute(locals())

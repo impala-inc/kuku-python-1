@@ -22,4 +22,4 @@ q_4 = 13 % 4
 
 
 # ここはとりあえず無視
-qa.execute(locals(), 6, 4)
+qa.execute(locals())

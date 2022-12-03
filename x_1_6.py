@@ -18,4 +18,4 @@ q_4 = len('ビーフストロガノフ')
 
 
 # ここはとりあえず無視
-qa.execute(locals(), 3, 4)
+qa.execute(locals())

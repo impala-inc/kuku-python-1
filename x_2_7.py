@@ -20,4 +20,4 @@ q_4 = int('110') + float('119.5')
 
 
 # ここはとりあえず無視
-qa.execute(locals(), 4, 4)
+qa.execute(locals())

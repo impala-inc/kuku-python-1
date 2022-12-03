@@ -20,4 +20,4 @@ q_4 = bool('')
 
 
 # ここはとりあえず無視
-qa.execute(locals(), 4, 4)
+qa.execute(locals())

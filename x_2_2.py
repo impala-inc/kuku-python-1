@@ -19,4 +19,4 @@ q_4 = 3 * 3 ** 2
 
 
 # ここはとりあえず無視
-qa.execute(locals(), 4, 4)
+qa.execute(locals())
