@@ -10,21 +10,17 @@ def execute(vars):
 
 
 def qa(question, value):
-    i = 0
-    while i < 3:
+    for _ in range(3):
         answer = input(question + 'の値は:')
         if answer == toStr(value):
-            print('正解です')
-            print('')
+            print('正解です', end='\n\n')
             return
-        else:
-            i += 1
-    print('正解は「' + toStr(value) + '」でした。')
-    print('')
+
+    print('正解は「', toStr(value), '」でした。', sep='', end='\n\n')
 
 
 def ex(question, value):
-    print(question + 'の値は' + toStr(value) + 'です')
+    print(question, 'の値は', toStr(value), 'です', sep='')
 
 
 def toStr(value):
