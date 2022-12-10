@@ -24,4 +24,4 @@ q_4 = members[1][len(members[1]) - 2]
 
 
 # ここはとりあえず無視
-qa.execute(locals(), 3, 4)
+qa.execute(locals())

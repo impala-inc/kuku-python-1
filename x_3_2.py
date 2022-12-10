@@ -22,4 +22,4 @@ q_4 = True and not False
 
 
 # ここはとりあえず無視
-qa.execute(locals(), 4, 4)
+qa.execute(locals())

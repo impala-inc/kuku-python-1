@@ -20,4 +20,4 @@ q_4 = 60 >= 55
 
 
 # ここはとりあえず無視
-qa.execute(locals(), 4, 4)
+qa.execute(locals())

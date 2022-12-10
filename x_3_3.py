@@ -21,4 +21,4 @@ q_4 = '1000' > '200'
 
 
 # ここはとりあえず無視
-qa.execute(locals(), 5, 4)
+qa.execute(locals())
