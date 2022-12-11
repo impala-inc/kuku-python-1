@@ -17,5 +17,4 @@ text = ''
 while retu < 5:
     text += '鬼'
     retu += 1
-    
 print(text)
