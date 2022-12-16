@@ -10,3 +10,7 @@ momotaro = {
     '守備力': 200,
 }
 print(momotaro)
+
+# ここで守備力を230にする
+
+print(momotaro)
