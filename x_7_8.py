@@ -11,4 +11,5 @@ chatbot = [
     {'question': 'ジャンケン', 'answer': 'グー'},
 ]
 
-message = input('何か話しかけてください:')
+while True:
+    message = input('何か話しかけてください:')
