@@ -7,9 +7,15 @@ from module import qa
 # ヒント
 
 hint_1 = 100 > 90
-hint_2 = 90 == 90
-hint_3 = 90 != 90
-hint_4 = 90 <= 90
+hint_2 = 100 < 90
+hint_3 = 90 == 90
+hint_4 = 100 == 90
+hint_5 = 90 != 90
+hint_6 = 100 != 90
+hint_7 = 90 <= 90
+hint_6 = 90 <= 100
+hint_8 = 90 >= 90
+hint_9 = 90 >= 100
 
 # ここから問題
 
