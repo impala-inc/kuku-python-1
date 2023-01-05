@@ -14,3 +14,17 @@ elif number % 5 == 0:
     print('Buzz')
 else:
     print(number)
+
+# [応用問題]
+# 上の問題を「elif」を使わずに書いてみてください
+
+if number % 3 == 0 and number % 5 == 0:
+    print('FizzBuzz')
+else:
+    if number % 3 == 0:
+        print('Fizz')
+    else:
+        if number % 5 == 0:
+            print('Buzz')
+        else:
+            print(number)
