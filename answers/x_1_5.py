@@ -1,20 +1,34 @@
 # x_1_5
 #
-# 「members」に「いぬ」と「さる」と「きじ」を順番に追加して、
-# 以下の様に表示してください
-# 「桃太郎」
-# 「桃太郎いぬ」
-# 「桃太郎いぬさる」
-# 「桃太郎いぬさるきじ」
+# ヒントを参考に鬼退治のメンバーを一人づつ追加してください
 
-members = '桃太郎'
+# ヒント
+
+text = '私の'
+print(text)
+text = text + '好きな食べ物は'
+print(text)
+text = text + 'オムライス'
+print(text)
+text = text + 'です'
+print(text)
+
+# ここから問題
+
+members = '鬼退治のメンバーは桃太郎'
 print(members)
 
-members = members + 'いぬ'
+# 「鬼退治のメンバーは桃太郎いぬ」と表示させてください
+new_member = 'いぬ'
+members = members + new_member
 print(members)
 
-members = members + 'さる'
+# 「鬼退治のメンバーは桃太郎いぬさる」と表示させてください
+new_member = 'さる'
+members = members + new_member
 print(members)
 
-members = members + 'きじ'
+# 「鬼退治のメンバーは桃太郎いぬさるきじ」と表示させてください
+new_member = 'きじ'
+members = members + new_member
 print(members)
