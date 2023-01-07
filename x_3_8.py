@@ -9,3 +9,7 @@ number = int(input('数字を入力してください:'))
 print('Fizz')
 print('Buzz')
 print('FizzBuzz')
+print(number)
+
+# [応用問題]
+# 上の問題を「elif」を使わずに書いてみてください
