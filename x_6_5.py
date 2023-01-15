@@ -1,7 +1,6 @@
 # x_6_5
 #
-# 「members」の値を確認したら、append、remove、insertを使って「members」を元に戻してください
-# 'さる'を追加する時はappendは使わないようにしてください
+# 「members」が最後にどんな値となるかを予想してください
 
 members = ['桃太郎', 'いぬ', 'さる', 'きじ']
 
@@ -18,8 +17,4 @@ members.insert(1, 'きんたろう')
 members.remove('きじ')
 members.append('かに')
 
-print(members)
-
-# ここで、6行以内で「members」を元に戻す
-
-print(members)
+# print(members)
