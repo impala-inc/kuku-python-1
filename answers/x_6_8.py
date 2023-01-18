@@ -11,3 +11,6 @@ for number in numbers:
         max_number = number
 
 print(max_number)
+
+# max関数を使うと簡単に最大値が取得できます
+# print(max(numbers))

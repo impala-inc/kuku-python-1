@@ -1,15 +1,24 @@
 # x_1_3
 #
-# 「your_name」と「your_food」にあなたの名字と好きな食べ物を入れて表示できるようにコードを追加してください
+# ヒントを参考に指示された文を表示してください
 
-my_name = '山本'
-my_food = 'オムライス'
+where = '自宅で'
+who = '私は'
+how = '３杯も'
+what = 'ビーフカレーを食べた'
+when = '昨日の晩'
+why = 'お腹が空いていたので'
 
-print('私の名前は' + my_name + 'です')
-print('好きな食べ物は' + my_food + 'です')
+# ヒント
 
-your_name = '山田'
-your_food = 'カツ丼'
+print(when)
+print(how)
 
-print('私の名前は' + your_name + 'です')
-print('好きな食べ物は' + your_food + 'です')
+# 「私は昨日の晩お腹が空いていたので自宅で３杯もビーフカレーを食べた」と１行で表示してください
+
+print(who + when + why + where + how + what)
+
+# このような書き方もできます
+
+print(who, when, why, where, how, what, sep='')
+print(f'{who}{when}{why}{where}{how}{what}')
