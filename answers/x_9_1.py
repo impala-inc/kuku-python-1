@@ -5,10 +5,13 @@
 
 import csv
 
+# ここでファイルを開いている
 file = open('./files/prefecture.csv', encoding="utf-8")
 
+# 辞書として読み込む
 reader = csv.DictReader(file)
 for row in reader:
     print(row['都道府県名'] + 'の都道府県番号は' + str(row['都道府県番号']))
 
+# ここでファイルを閉じている
 file.close()
