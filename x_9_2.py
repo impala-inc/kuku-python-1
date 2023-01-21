@@ -11,9 +11,13 @@ chatbot = [
     {'question': 'ジャンケン', 'answer': 'グー'},
 ]
 
+# ここでファイルを辞書「chatbot」として読み込む
+
 message = input('何か話しかけてください:')
 
 for q_and_a in chatbot:
     if q_and_a['question'] == message:
         print(q_and_a['answer'])
         break
+
+# ここでファイルを閉じる
