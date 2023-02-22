@@ -15,3 +15,9 @@ chatbot = [
 ]
 
 message = input('何か話しかけてください:')
+
+answers = []
+
+for q_and_a in chatbot:
+    if q_and_a['question'] == message:
+        print(q_and_a['answer'])
